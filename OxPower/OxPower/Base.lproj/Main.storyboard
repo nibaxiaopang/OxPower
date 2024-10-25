@@ -2111,6 +2111,13 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="SWD-wO-sAf">
                                 <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
                             </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="rt2-Rk-S2g">
+                                <rect key="frame" x="76.666666666666686" y="199" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Cf4-Jq-NUH"/>
+                                    <constraint firstAttribute="height" constant="240" id="WoE-pl-1fE"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fCb-ah-Lnm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2121,8 +2128,10 @@
                             <constraint firstAttribute="bottom" secondItem="Xjg-GM-nP1" secondAttribute="bottom" id="Pd3-ri-OY8"/>
                             <constraint firstItem="SWD-wO-sAf" firstAttribute="centerY" secondItem="O5a-FW-BJJ" secondAttribute="centerY" id="aMv-bS-xhZ"/>
                             <constraint firstItem="nIA-vv-Fci" firstAttribute="centerX" secondItem="O5a-FW-BJJ" secondAttribute="centerX" id="cOP-vx-yqm"/>
+                            <constraint firstItem="rt2-Rk-S2g" firstAttribute="centerX" secondItem="O5a-FW-BJJ" secondAttribute="centerX" id="dUG-5U-ttH"/>
                             <constraint firstItem="SWD-wO-sAf" firstAttribute="centerX" secondItem="O5a-FW-BJJ" secondAttribute="centerX" id="fRz-ik-Kia"/>
                             <constraint firstItem="Xjg-GM-nP1" firstAttribute="top" secondItem="O5a-FW-BJJ" secondAttribute="top" id="ih4-Hx-xcx"/>
+                            <constraint firstItem="rt2-Rk-S2g" firstAttribute="top" secondItem="nIA-vv-Fci" secondAttribute="bottom" constant="60" id="jRC-L8-BdZ"/>
                             <constraint firstItem="Xjg-GM-nP1" firstAttribute="leading" secondItem="O5a-FW-BJJ" secondAttribute="leading" id="vEX-5C-t5h"/>
                             <constraint firstItem="BeZ-Qg-Z3F" firstAttribute="leading" secondItem="fCb-ah-Lnm" secondAttribute="leading" constant="20" id="w6c-9f-vBv"/>
                             <constraint firstItem="fCb-ah-Lnm" firstAttribute="trailing" secondItem="BeZ-Qg-Z3F" secondAttribute="trailing" constant="20" id="xjt-x0-fM2"/>
@@ -2140,7 +2149,8 @@
     </scenes>
     <resources>
         <image name="backicon" width="512" height="512"/>
-        <image name="bgOx" width="1024" height="1792"/>
+        <image name="bgOx" width="375" height="812"/>
+        <image name="logo" width="974" height="1014"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

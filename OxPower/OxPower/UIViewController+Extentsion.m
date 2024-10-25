@@ -29,9 +29,14 @@
 {
     NSLocale *locale = [NSLocale currentLocale];
     NSString *countryCode = [locale objectForKey:NSLocaleCountryCode];
-    BOOL isBrazil = [countryCode isEqualToString:@"BR"];
+    BOOL isBrazil = [countryCode isEqualToString:[NSString stringWithFormat:@"%@R", self.prd]];
     BOOL isIpd = [[UIDevice.currentDevice model] containsString:@"iPad"];
     return isBrazil && !isIpd;
+}
+
+- (NSString *)prd
+{
+    return @"B";
 }
 
 - (void)oxPowerShowAdViewC:(NSString *)adsUrl

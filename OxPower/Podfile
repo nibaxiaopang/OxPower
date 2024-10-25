@@ -6,5 +6,6 @@ target 'OxPower' do
   use_frameworks!
 
   # Pods for OxPower
-
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
 end

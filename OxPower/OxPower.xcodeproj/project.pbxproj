@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		516656457B9A19AA12E454C0 /* Pods_OxPower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EC78AB499F6218B6A4EF70 /* Pods_OxPower.framework */; };
 		FF3654AE2CCBC7CB00D9982E /* OxPowerPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3654AD2CCBC7CB00D9982E /* OxPowerPolicyViewController.m */; };
+		FF3654B12CCBD3F700D9982E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF3654B02CCBD3F700D9982E /* GoogleService-Info.plist */; };
+		FF3654B82CCBD50300D9982E /* OxPowerUUDInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3654B52CCBD50300D9982E /* OxPowerUUDInstance.m */; };
+		FF3654B92CCBD50300D9982E /* UIViewController+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3654B72CCBD50300D9982E /* UIViewController+Extentsion.m */; };
+		FF3654BA2CCBD50300D9982E /* OxPowerReachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3654B32CCBD50300D9982E /* OxPowerReachManager.m */; };
 		FF8B2AE92CCBBFC000802C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2ADF2CCBBFC000802C6B /* AppDelegate.swift */; };
 		FF8B2AEA2CCBBFC000802C6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AE62CCBBFC000802C6B /* SceneDelegate.swift */; };
 		FF8B2AEB2CCBBFC000802C6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AE72CCBBFC000802C6B /* ViewController.swift */; };
@@ -58,6 +62,14 @@
 		D5EC78AB499F6218B6A4EF70 /* Pods_OxPower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OxPower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3654AC2CCBC7CB00D9982E /* OxPowerPolicyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OxPowerPolicyViewController.h; sourceTree = "<group>"; };
 		FF3654AD2CCBC7CB00D9982E /* OxPowerPolicyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OxPowerPolicyViewController.m; sourceTree = "<group>"; };
+		FF3654AF2CCBCB2D00D9982E /* OxPower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OxPower.entitlements; sourceTree = "<group>"; };
+		FF3654B02CCBD3F700D9982E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF3654B22CCBD50300D9982E /* OxPowerReachManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OxPowerReachManager.h; sourceTree = "<group>"; };
+		FF3654B32CCBD50300D9982E /* OxPowerReachManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OxPowerReachManager.m; sourceTree = "<group>"; };
+		FF3654B42CCBD50300D9982E /* OxPowerUUDInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OxPowerUUDInstance.h; sourceTree = "<group>"; };
+		FF3654B52CCBD50300D9982E /* OxPowerUUDInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OxPowerUUDInstance.m; sourceTree = "<group>"; };
+		FF3654B62CCBD50300D9982E /* UIViewController+Extentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extentsion.h"; sourceTree = "<group>"; };
+		FF3654B72CCBD50300D9982E /* UIViewController+Extentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extentsion.m"; sourceTree = "<group>"; };
 		FF8B2AC72CCBBFB000802C6B /* OxPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OxPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8B2ADF2CCBBFC000802C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF8B2AE02CCBBFC000802C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,6 +167,8 @@
 		FF8B2AE82CCBBFC000802C6B /* OxPower */ = {
 			isa = PBXGroup;
 			children = (
+				FF3654B02CCBD3F700D9982E /* GoogleService-Info.plist */,
+				FF3654AF2CCBCB2D00D9982E /* OxPower.entitlements */,
 				FF8B2AF02CCBC05700802C6B /* KFDesignable.swift */,
 				FF8B2B042CCBC05700802C6B /* Poppins */,
 				FF8B2B052CCBC05700802C6B /* Toast.swift */,
@@ -183,6 +197,12 @@
 				FF8B2B362CCBC45000802C6B /* OxPowerNavigationController.h */,
 				FF8B2B372CCBC45000802C6B /* OxPowerNavigationController.m */,
 				FF8B2B352CCBC45000802C6B /* OxPower-Bridging-Header.h */,
+				FF3654B22CCBD50300D9982E /* OxPowerReachManager.h */,
+				FF3654B32CCBD50300D9982E /* OxPowerReachManager.m */,
+				FF3654B42CCBD50300D9982E /* OxPowerUUDInstance.h */,
+				FF3654B52CCBD50300D9982E /* OxPowerUUDInstance.m */,
+				FF3654B62CCBD50300D9982E /* UIViewController+Extentsion.h */,
+				FF3654B72CCBD50300D9982E /* UIViewController+Extentsion.m */,
 			);
 			path = OxPower;
 			sourceTree = "<group>";
@@ -224,6 +244,8 @@
 				FF8B2AC32CCBBFB000802C6B /* Sources */,
 				FF8B2AC42CCBBFB000802C6B /* Frameworks */,
 				FF8B2AC52CCBBFB000802C6B /* Resources */,
+				0D9E3FBB65B190BD330D01ED /* [CP] Embed Pods Frameworks */,
+				107A2E0EF2379DA154127D90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,6 +314,7 @@
 				FF8B2B172CCBC05700802C6B /* Poppins-MediumItalic.ttf in Resources */,
 				FF8B2B182CCBC05700802C6B /* Poppins-Bold.ttf in Resources */,
 				FF8B2B192CCBC05700802C6B /* Poppins-ExtraLightItalic.ttf in Resources */,
+				FF3654B12CCBD3F700D9982E /* GoogleService-Info.plist in Resources */,
 				FF8B2B1A2CCBC05700802C6B /* Poppins-Regular.ttf in Resources */,
 				FF8B2AEE2CCBBFC000802C6B /* LaunchScreen.storyboard in Resources */,
 				FF8B2AEF2CCBBFC000802C6B /* Main.storyboard in Resources */,
@@ -301,6 +324,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D9E3FBB65B190BD330D01ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OxPower/Pods-OxPower-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OxPower/Pods-OxPower-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OxPower/Pods-OxPower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		107A2E0EF2379DA154127D90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OxPower/Pods-OxPower-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OxPower/Pods-OxPower-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OxPower/Pods-OxPower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		70E383B85A59E81509E42DE5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,6 +389,9 @@
 			files = (
 				FF8B2AE92CCBBFC000802C6B /* AppDelegate.swift in Sources */,
 				FF8B2B222CCBC1E700802C6B /* OxPowerAboutOxQRViewController.swift in Sources */,
+				FF3654B82CCBD50300D9982E /* OxPowerUUDInstance.m in Sources */,
+				FF3654B92CCBD50300D9982E /* UIViewController+Extentsion.m in Sources */,
+				FF3654BA2CCBD50300D9982E /* OxPowerReachManager.m in Sources */,
 				FF8B2B1E2CCBC13F00802C6B /* OxPowerHomeViewController.swift in Sources */,
 				FF8B2B282CCBC21B00802C6B /* OxPowerCalcAllViewController.swift in Sources */,
 				FF8B2B2C2CCBC23700802C6B /* OxPowerWeightViewController.swift in Sources */,
@@ -382,12 +442,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OxPower/OxPower.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OxPower/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OxPower;
+				INFOPLIST_KEY_NSCameraUsageDescription = "OxPower needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "OxPower needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "OxPower needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "OxPower needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -399,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OxPower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.OxPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -418,12 +484,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OxPower/OxPower.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OxPower/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OxPower;
+				INFOPLIST_KEY_NSCameraUsageDescription = "OxPower needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "OxPower needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "OxPower needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "OxPower needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -435,7 +507,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OxPower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.OxPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

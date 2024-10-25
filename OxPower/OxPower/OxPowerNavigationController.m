@@ -2,7 +2,7 @@
 //  OxPowerNavigationController.m
 //  OxPower
 //
-//  Created by jin fu on 2024/10/25.
+//  Created by OxPower on 2024/10/25.
 //
 
 #import "OxPowerNavigationController.h"

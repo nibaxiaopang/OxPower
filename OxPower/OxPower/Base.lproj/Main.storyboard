@@ -1677,7 +1677,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="backicon"/>
                                 <connections>
-                                    <action selector="Back:" destination="9OO-Ap-Vkf" eventType="touchUpInside" id="qaU-OI-Uy2"/>
+                                    <action selector="popAction:" destination="9OO-Ap-Vkf" eventType="touchUpInside" id="2vu-2h-NuF"/>
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="oAS-zV-jVu">
@@ -1698,6 +1698,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vQ9-uI-93Z"/>
+                    <connections>
+                        <outlet property="bottomCos" destination="3xN-Pd-PaV" id="jcd-2V-Uod"/>
+                        <outlet property="oxPowerBackBtn" destination="bhB-vj-v2a" id="2Zs-NZ-964"/>
+                        <outlet property="oxPowerIndicatorView" destination="oAS-zV-jVu" id="TnP-Kp-Jyi"/>
+                        <outlet property="oxPowerWebView" destination="5zF-l7-Tuy" id="FOt-QX-mg6"/>
+                        <outlet property="topCos" destination="dna-RI-8hD" id="SOf-6T-ISO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7pD-uL-LEm" sceneMemberID="firstResponder"/>
             </objects>
@@ -2101,6 +2108,9 @@
                                     <action selector="Start:" destination="FZD-sp-R48" eventType="touchUpInside" id="SlV-Kt-zcF"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="SWD-wO-sAf">
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fCb-ah-Lnm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2109,13 +2119,19 @@
                             <constraint firstAttribute="trailing" secondItem="Xjg-GM-nP1" secondAttribute="trailing" id="5Wc-U6-Iic"/>
                             <constraint firstItem="fCb-ah-Lnm" firstAttribute="bottom" secondItem="BeZ-Qg-Z3F" secondAttribute="bottom" constant="20" id="99p-eZ-rTJ"/>
                             <constraint firstAttribute="bottom" secondItem="Xjg-GM-nP1" secondAttribute="bottom" id="Pd3-ri-OY8"/>
+                            <constraint firstItem="SWD-wO-sAf" firstAttribute="centerY" secondItem="O5a-FW-BJJ" secondAttribute="centerY" id="aMv-bS-xhZ"/>
                             <constraint firstItem="nIA-vv-Fci" firstAttribute="centerX" secondItem="O5a-FW-BJJ" secondAttribute="centerX" id="cOP-vx-yqm"/>
+                            <constraint firstItem="SWD-wO-sAf" firstAttribute="centerX" secondItem="O5a-FW-BJJ" secondAttribute="centerX" id="fRz-ik-Kia"/>
                             <constraint firstItem="Xjg-GM-nP1" firstAttribute="top" secondItem="O5a-FW-BJJ" secondAttribute="top" id="ih4-Hx-xcx"/>
                             <constraint firstItem="Xjg-GM-nP1" firstAttribute="leading" secondItem="O5a-FW-BJJ" secondAttribute="leading" id="vEX-5C-t5h"/>
                             <constraint firstItem="BeZ-Qg-Z3F" firstAttribute="leading" secondItem="fCb-ah-Lnm" secondAttribute="leading" constant="20" id="w6c-9f-vBv"/>
                             <constraint firstItem="fCb-ah-Lnm" firstAttribute="trailing" secondItem="BeZ-Qg-Z3F" secondAttribute="trailing" constant="20" id="xjt-x0-fM2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="atView" destination="SWD-wO-sAf" id="NMY-fA-quF"/>
+                        <outlet property="startBtn" destination="BeZ-Qg-Z3F" id="1WQ-7x-UXf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P3j-SD-87r" sceneMemberID="firstResponder"/>
             </objects>

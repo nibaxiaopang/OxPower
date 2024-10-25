@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516656457B9A19AA12E454C0 /* Pods_OxPower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EC78AB499F6218B6A4EF70 /* Pods_OxPower.framework */; };
+		FF3654AE2CCBC7CB00D9982E /* OxPowerPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3654AD2CCBC7CB00D9982E /* OxPowerPolicyViewController.m */; };
+		FF8B2AE92CCBBFC000802C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2ADF2CCBBFC000802C6B /* AppDelegate.swift */; };
+		FF8B2AEA2CCBBFC000802C6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AE62CCBBFC000802C6B /* SceneDelegate.swift */; };
+		FF8B2AEB2CCBBFC000802C6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AE72CCBBFC000802C6B /* ViewController.swift */; };
+		FF8B2AEC2CCBBFC000802C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AE02CCBBFC000802C6B /* Assets.xcassets */; };
+		FF8B2AEE2CCBBFC000802C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AE32CCBBFC000802C6B /* LaunchScreen.storyboard */; };
+		FF8B2AEF2CCBBFC000802C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AE52CCBBFC000802C6B /* Main.storyboard */; };
+		FF8B2B062CCBC05700802C6B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B052CCBC05700802C6B /* Toast.swift */; };
+		FF8B2B072CCBC05700802C6B /* KFDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2AF02CCBC05700802C6B /* KFDesignable.swift */; };
+		FF8B2B082CCBC05700802C6B /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF82CCBC05700802C6B /* Poppins-ExtraLight.ttf */; };
+		FF8B2B092CCBC05700802C6B /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2B012CCBC05700802C6B /* Poppins-SemiBoldItalic.ttf */; };
+		FF8B2B0A2CCBC05700802C6B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF12CCBC05700802C6B /* OFL.txt */; };
+		FF8B2B0B2CCBC05700802C6B /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AFB2CCBC05700802C6B /* Poppins-Light.ttf */; };
+		FF8B2B0C2CCBC05700802C6B /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AFA2CCBC05700802C6B /* Poppins-Italic.ttf */; };
+		FF8B2B0D2CCBC05700802C6B /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF52CCBC05700802C6B /* Poppins-BoldItalic.ttf */; };
+		FF8B2B0E2CCBC05700802C6B /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2B022CCBC05700802C6B /* Poppins-Thin.ttf */; };
+		FF8B2B0F2CCBC05700802C6B /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF22CCBC05700802C6B /* Poppins-Black.ttf */; };
+		FF8B2B102CCBC05700802C6B /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF32CCBC05700802C6B /* Poppins-BlackItalic.ttf */; };
+		FF8B2B112CCBC05700802C6B /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF62CCBC05700802C6B /* Poppins-ExtraBold.ttf */; };
+		FF8B2B122CCBC05700802C6B /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AFC2CCBC05700802C6B /* Poppins-LightItalic.ttf */; };
+		FF8B2B132CCBC05700802C6B /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF72CCBC05700802C6B /* Poppins-ExtraBoldItalic.ttf */; };
+		FF8B2B142CCBC05700802C6B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AFD2CCBC05700802C6B /* Poppins-Medium.ttf */; };
+		FF8B2B152CCBC05700802C6B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2B032CCBC05700802C6B /* Poppins-ThinItalic.ttf */; };
+		FF8B2B162CCBC05700802C6B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2B002CCBC05700802C6B /* Poppins-SemiBold.ttf */; };
+		FF8B2B172CCBC05700802C6B /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AFE2CCBC05700802C6B /* Poppins-MediumItalic.ttf */; };
+		FF8B2B182CCBC05700802C6B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF42CCBC05700802C6B /* Poppins-Bold.ttf */; };
+		FF8B2B192CCBC05700802C6B /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AF92CCBC05700802C6B /* Poppins-ExtraLightItalic.ttf */; };
+		FF8B2B1A2CCBC05700802C6B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF8B2AFF2CCBC05700802C6B /* Poppins-Regular.ttf */; };
+		FF8B2B1C2CCBC11700802C6B /* OxPowerIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B1B2CCBC11600802C6B /* OxPowerIntroViewController.swift */; };
+		FF8B2B1E2CCBC13F00802C6B /* OxPowerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B1D2CCBC13E00802C6B /* OxPowerHomeViewController.swift */; };
+		FF8B2B202CCBC1D800802C6B /* OxPowerAboutOxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B1F2CCBC1D700802C6B /* OxPowerAboutOxViewController.swift */; };
+		FF8B2B222CCBC1E700802C6B /* OxPowerAboutOxQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B212CCBC1E600802C6B /* OxPowerAboutOxQRViewController.swift */; };
+		FF8B2B242CCBC1F500802C6B /* OxPowerOxFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B232CCBC1F500802C6B /* OxPowerOxFactViewController.swift */; };
+		FF8B2B262CCBC20400802C6B /* OxPowerOxFactQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B252CCBC20400802C6B /* OxPowerOxFactQRViewController.swift */; };
+		FF8B2B282CCBC21B00802C6B /* OxPowerCalcAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B272CCBC21900802C6B /* OxPowerCalcAllViewController.swift */; };
+		FF8B2B2A2CCBC22A00802C6B /* OxPowerAgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B292CCBC22900802C6B /* OxPowerAgeViewController.swift */; };
+		FF8B2B2C2CCBC23700802C6B /* OxPowerWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B2B2CCBC23700802C6B /* OxPowerWeightViewController.swift */; };
+		FF8B2B2E2CCBC24600802C6B /* OxPowerFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B2D2CCBC24500802C6B /* OxPowerFeedViewController.swift */; };
+		FF8B2B302CCBC25400802C6B /* OxPowerPullingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B2F2CCBC25400802C6B /* OxPowerPullingViewController.swift */; };
+		FF8B2B322CCBC26400802C6B /* OxPowerMilkVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B312CCBC26300802C6B /* OxPowerMilkVewController.swift */; };
+		FF8B2B342CCBC27200802C6B /* OxPowerResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B332CCBC27100802C6B /* OxPowerResultViewController.swift */; };
+		FF8B2B382CCBC45000802C6B /* OxPowerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B2B372CCBC45000802C6B /* OxPowerNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6492DD57DB959F92684960FB /* Pods-OxPower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OxPower.release.xcconfig"; path = "Target Support Files/Pods-OxPower/Pods-OxPower.release.xcconfig"; sourceTree = "<group>"; };
+		80F7FDE82D4F10872CDD2F56 /* Pods-OxPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OxPower.debug.xcconfig"; path = "Target Support Files/Pods-OxPower/Pods-OxPower.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EC78AB499F6218B6A4EF70 /* Pods_OxPower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OxPower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3654AC2CCBC7CB00D9982E /* OxPowerPolicyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OxPowerPolicyViewController.h; sourceTree = "<group>"; };
+		FF3654AD2CCBC7CB00D9982E /* OxPowerPolicyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OxPowerPolicyViewController.m; sourceTree = "<group>"; };
+		FF8B2AC72CCBBFB000802C6B /* OxPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OxPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8B2ADF2CCBBFC000802C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF8B2AE02CCBBFC000802C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8B2AE12CCBBFC000802C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8B2AE22CCBBFC000802C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8B2AE42CCBBFC000802C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8B2AE62CCBBFC000802C6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF8B2AE72CCBBFC000802C6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF8B2AF02CCBC05700802C6B /* KFDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFDesignable.swift; sourceTree = "<group>"; };
+		FF8B2AF12CCBC05700802C6B /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		FF8B2AF22CCBC05700802C6B /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		FF8B2AF32CCBC05700802C6B /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2AF42CCBC05700802C6B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		FF8B2AF52CCBC05700802C6B /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2AF62CCBC05700802C6B /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FF8B2AF72CCBC05700802C6B /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2AF82CCBC05700802C6B /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FF8B2AF92CCBC05700802C6B /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2AFA2CCBC05700802C6B /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		FF8B2AFB2CCBC05700802C6B /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FF8B2AFC2CCBC05700802C6B /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2AFD2CCBC05700802C6B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		FF8B2AFE2CCBC05700802C6B /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2AFF2CCBC05700802C6B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		FF8B2B002CCBC05700802C6B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		FF8B2B012CCBC05700802C6B /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2B022CCBC05700802C6B /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		FF8B2B032CCBC05700802C6B /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FF8B2B052CCBC05700802C6B /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		FF8B2B1B2CCBC11600802C6B /* OxPowerIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerIntroViewController.swift; sourceTree = "<group>"; };
+		FF8B2B1D2CCBC13E00802C6B /* OxPowerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerHomeViewController.swift; sourceTree = "<group>"; };
+		FF8B2B1F2CCBC1D700802C6B /* OxPowerAboutOxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerAboutOxViewController.swift; sourceTree = "<group>"; };
+		FF8B2B212CCBC1E600802C6B /* OxPowerAboutOxQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerAboutOxQRViewController.swift; sourceTree = "<group>"; };
+		FF8B2B232CCBC1F500802C6B /* OxPowerOxFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerOxFactViewController.swift; sourceTree = "<group>"; };
+		FF8B2B252CCBC20400802C6B /* OxPowerOxFactQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerOxFactQRViewController.swift; sourceTree = "<group>"; };
+		FF8B2B272CCBC21900802C6B /* OxPowerCalcAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerCalcAllViewController.swift; sourceTree = "<group>"; };
+		FF8B2B292CCBC22900802C6B /* OxPowerAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerAgeViewController.swift; sourceTree = "<group>"; };
+		FF8B2B2B2CCBC23700802C6B /* OxPowerWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerWeightViewController.swift; sourceTree = "<group>"; };
+		FF8B2B2D2CCBC24500802C6B /* OxPowerFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerFeedViewController.swift; sourceTree = "<group>"; };
+		FF8B2B2F2CCBC25400802C6B /* OxPowerPullingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerPullingViewController.swift; sourceTree = "<group>"; };
+		FF8B2B312CCBC26300802C6B /* OxPowerMilkVewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerMilkVewController.swift; sourceTree = "<group>"; };
+		FF8B2B332CCBC27100802C6B /* OxPowerResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxPowerResultViewController.swift; sourceTree = "<group>"; };
+		FF8B2B352CCBC45000802C6B /* OxPower-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OxPower-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF8B2B362CCBC45000802C6B /* OxPowerNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OxPowerNavigationController.h; sourceTree = "<group>"; };
+		FF8B2B372CCBC45000802C6B /* OxPowerNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OxPowerNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8B2AC42CCBBFB000802C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516656457B9A19AA12E454C0 /* Pods_OxPower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2936967C8D51582C205F13B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EC78AB499F6218B6A4EF70 /* Pods_OxPower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90E5DB661740B3443EADC61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80F7FDE82D4F10872CDD2F56 /* Pods-OxPower.debug.xcconfig */,
+				6492DD57DB959F92684960FB /* Pods-OxPower.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF8B2ABE2CCBBFB000802C6B = {
+			isa = PBXGroup;
+			children = (
+				FF8B2AE82CCBBFC000802C6B /* OxPower */,
+				FF8B2AC82CCBBFB000802C6B /* Products */,
+				C90E5DB661740B3443EADC61 /* Pods */,
+				2936967C8D51582C205F13B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8B2AC82CCBBFB000802C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2AC72CCBBFB000802C6B /* OxPower.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8B2AE82CCBBFC000802C6B /* OxPower */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2AF02CCBC05700802C6B /* KFDesignable.swift */,
+				FF8B2B042CCBC05700802C6B /* Poppins */,
+				FF8B2B052CCBC05700802C6B /* Toast.swift */,
+				FF8B2ADF2CCBBFC000802C6B /* AppDelegate.swift */,
+				FF8B2AE62CCBBFC000802C6B /* SceneDelegate.swift */,
+				FF8B2AE02CCBBFC000802C6B /* Assets.xcassets */,
+				FF8B2AE12CCBBFC000802C6B /* Info.plist */,
+				FF8B2AE32CCBBFC000802C6B /* LaunchScreen.storyboard */,
+				FF8B2AE52CCBBFC000802C6B /* Main.storyboard */,
+				FF8B2AE72CCBBFC000802C6B /* ViewController.swift */,
+				FF8B2B1B2CCBC11600802C6B /* OxPowerIntroViewController.swift */,
+				FF3654AC2CCBC7CB00D9982E /* OxPowerPolicyViewController.h */,
+				FF3654AD2CCBC7CB00D9982E /* OxPowerPolicyViewController.m */,
+				FF8B2B1D2CCBC13E00802C6B /* OxPowerHomeViewController.swift */,
+				FF8B2B1F2CCBC1D700802C6B /* OxPowerAboutOxViewController.swift */,
+				FF8B2B212CCBC1E600802C6B /* OxPowerAboutOxQRViewController.swift */,
+				FF8B2B232CCBC1F500802C6B /* OxPowerOxFactViewController.swift */,
+				FF8B2B252CCBC20400802C6B /* OxPowerOxFactQRViewController.swift */,
+				FF8B2B272CCBC21900802C6B /* OxPowerCalcAllViewController.swift */,
+				FF8B2B292CCBC22900802C6B /* OxPowerAgeViewController.swift */,
+				FF8B2B2B2CCBC23700802C6B /* OxPowerWeightViewController.swift */,
+				FF8B2B2D2CCBC24500802C6B /* OxPowerFeedViewController.swift */,
+				FF8B2B2F2CCBC25400802C6B /* OxPowerPullingViewController.swift */,
+				FF8B2B312CCBC26300802C6B /* OxPowerMilkVewController.swift */,
+				FF8B2B332CCBC27100802C6B /* OxPowerResultViewController.swift */,
+				FF8B2B362CCBC45000802C6B /* OxPowerNavigationController.h */,
+				FF8B2B372CCBC45000802C6B /* OxPowerNavigationController.m */,
+				FF8B2B352CCBC45000802C6B /* OxPower-Bridging-Header.h */,
+			);
+			path = OxPower;
+			sourceTree = "<group>";
+		};
+		FF8B2B042CCBC05700802C6B /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B2AF12CCBC05700802C6B /* OFL.txt */,
+				FF8B2AF22CCBC05700802C6B /* Poppins-Black.ttf */,
+				FF8B2AF32CCBC05700802C6B /* Poppins-BlackItalic.ttf */,
+				FF8B2AF42CCBC05700802C6B /* Poppins-Bold.ttf */,
+				FF8B2AF52CCBC05700802C6B /* Poppins-BoldItalic.ttf */,
+				FF8B2AF62CCBC05700802C6B /* Poppins-ExtraBold.ttf */,
+				FF8B2AF72CCBC05700802C6B /* Poppins-ExtraBoldItalic.ttf */,
+				FF8B2AF82CCBC05700802C6B /* Poppins-ExtraLight.ttf */,
+				FF8B2AF92CCBC05700802C6B /* Poppins-ExtraLightItalic.ttf */,
+				FF8B2AFA2CCBC05700802C6B /* Poppins-Italic.ttf */,
+				FF8B2AFB2CCBC05700802C6B /* Poppins-Light.ttf */,
+				FF8B2AFC2CCBC05700802C6B /* Poppins-LightItalic.ttf */,
+				FF8B2AFD2CCBC05700802C6B /* Poppins-Medium.ttf */,
+				FF8B2AFE2CCBC05700802C6B /* Poppins-MediumItalic.ttf */,
+				FF8B2AFF2CCBC05700802C6B /* Poppins-Regular.ttf */,
+				FF8B2B002CCBC05700802C6B /* Poppins-SemiBold.ttf */,
+				FF8B2B012CCBC05700802C6B /* Poppins-SemiBoldItalic.ttf */,
+				FF8B2B022CCBC05700802C6B /* Poppins-Thin.ttf */,
+				FF8B2B032CCBC05700802C6B /* Poppins-ThinItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8B2AC62CCBBFB000802C6B /* OxPower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8B2ADA2CCBBFB100802C6B /* Build configuration list for PBXNativeTarget "OxPower" */;
+			buildPhases = (
+				70E383B85A59E81509E42DE5 /* [CP] Check Pods Manifest.lock */,
+				FF8B2AC32CCBBFB000802C6B /* Sources */,
+				FF8B2AC42CCBBFB000802C6B /* Frameworks */,
+				FF8B2AC52CCBBFB000802C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OxPower;
+			productName = OxPower;
+			productReference = FF8B2AC72CCBBFB000802C6B /* OxPower.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8B2ABF2CCBBFB000802C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FF8B2AC62CCBBFB000802C6B = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = FF8B2AC22CCBBFB000802C6B /* Build configuration list for PBXProject "OxPower" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8B2ABE2CCBBFB000802C6B;
+			productRefGroup = FF8B2AC82CCBBFB000802C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8B2AC62CCBBFB000802C6B /* OxPower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8B2AC52CCBBFB000802C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8B2AEC2CCBBFC000802C6B /* Assets.xcassets in Resources */,
+				FF8B2B082CCBC05700802C6B /* Poppins-ExtraLight.ttf in Resources */,
+				FF8B2B092CCBC05700802C6B /* Poppins-SemiBoldItalic.ttf in Resources */,
+				FF8B2B0A2CCBC05700802C6B /* OFL.txt in Resources */,
+				FF8B2B0B2CCBC05700802C6B /* Poppins-Light.ttf in Resources */,
+				FF8B2B0C2CCBC05700802C6B /* Poppins-Italic.ttf in Resources */,
+				FF8B2B0D2CCBC05700802C6B /* Poppins-BoldItalic.ttf in Resources */,
+				FF8B2B0E2CCBC05700802C6B /* Poppins-Thin.ttf in Resources */,
+				FF8B2B0F2CCBC05700802C6B /* Poppins-Black.ttf in Resources */,
+				FF8B2B102CCBC05700802C6B /* Poppins-BlackItalic.ttf in Resources */,
+				FF8B2B112CCBC05700802C6B /* Poppins-ExtraBold.ttf in Resources */,
+				FF8B2B122CCBC05700802C6B /* Poppins-LightItalic.ttf in Resources */,
+				FF8B2B132CCBC05700802C6B /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				FF8B2B142CCBC05700802C6B /* Poppins-Medium.ttf in Resources */,
+				FF8B2B152CCBC05700802C6B /* Poppins-ThinItalic.ttf in Resources */,
+				FF8B2B162CCBC05700802C6B /* Poppins-SemiBold.ttf in Resources */,
+				FF8B2B172CCBC05700802C6B /* Poppins-MediumItalic.ttf in Resources */,
+				FF8B2B182CCBC05700802C6B /* Poppins-Bold.ttf in Resources */,
+				FF8B2B192CCBC05700802C6B /* Poppins-ExtraLightItalic.ttf in Resources */,
+				FF8B2B1A2CCBC05700802C6B /* Poppins-Regular.ttf in Resources */,
+				FF8B2AEE2CCBBFC000802C6B /* LaunchScreen.storyboard in Resources */,
+				FF8B2AEF2CCBBFC000802C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70E383B85A59E81509E42DE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OxPower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8B2AC32CCBBFB000802C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8B2AE92CCBBFC000802C6B /* AppDelegate.swift in Sources */,
+				FF8B2B222CCBC1E700802C6B /* OxPowerAboutOxQRViewController.swift in Sources */,
+				FF8B2B1E2CCBC13F00802C6B /* OxPowerHomeViewController.swift in Sources */,
+				FF8B2B282CCBC21B00802C6B /* OxPowerCalcAllViewController.swift in Sources */,
+				FF8B2B2C2CCBC23700802C6B /* OxPowerWeightViewController.swift in Sources */,
+				FF8B2B062CCBC05700802C6B /* Toast.swift in Sources */,
+				FF8B2B262CCBC20400802C6B /* OxPowerOxFactQRViewController.swift in Sources */,
+				FF8B2B342CCBC27200802C6B /* OxPowerResultViewController.swift in Sources */,
+				FF8B2B072CCBC05700802C6B /* KFDesignable.swift in Sources */,
+				FF8B2B382CCBC45000802C6B /* OxPowerNavigationController.m in Sources */,
+				FF8B2AEA2CCBBFC000802C6B /* SceneDelegate.swift in Sources */,
+				FF8B2B322CCBC26400802C6B /* OxPowerMilkVewController.swift in Sources */,
+				FF8B2B202CCBC1D800802C6B /* OxPowerAboutOxViewController.swift in Sources */,
+				FF8B2AEB2CCBBFC000802C6B /* ViewController.swift in Sources */,
+				FF8B2B2A2CCBC22A00802C6B /* OxPowerAgeViewController.swift in Sources */,
+				FF3654AE2CCBC7CB00D9982E /* OxPowerPolicyViewController.m in Sources */,
+				FF8B2B2E2CCBC24600802C6B /* OxPowerFeedViewController.swift in Sources */,
+				FF8B2B1C2CCBC11700802C6B /* OxPowerIntroViewController.swift in Sources */,
+				FF8B2B302CCBC25400802C6B /* OxPowerPullingViewController.swift in Sources */,
+				FF8B2B242CCBC1F500802C6B /* OxPowerOxFactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF8B2AE32CCBBFC000802C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8B2AE22CCBBFC000802C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8B2AE52CCBBFC000802C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8B2AE42CCBBFC000802C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8B2ADB2CCBBFB100802C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F7FDE82D4F10872CDD2F56 /* Pods-OxPower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OxPower/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OxPower;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OxPower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OxPower/OxPower-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF8B2ADC2CCBBFB100802C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6492DD57DB959F92684960FB /* Pods-OxPower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OxPower/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OxPower;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OxPower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OxPower/OxPower-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FF8B2ADD2CCBBFB100802C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF8B2ADE2CCBBFB100802C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8B2AC22CCBBFB000802C6B /* Build configuration list for PBXProject "OxPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8B2ADD2CCBBFB100802C6B /* Debug */,
+				FF8B2ADE2CCBBFB100802C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8B2ADA2CCBBFB100802C6B /* Build configuration list for PBXNativeTarget "OxPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8B2ADB2CCBBFB100802C6B /* Debug */,
+				FF8B2ADC2CCBBFB100802C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8B2ABF2CCBBFB000802C6B /* Project object */;
+}
